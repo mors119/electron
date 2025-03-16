@@ -1,0 +1,11 @@
+npm create vite .
+
+npm i
+
+npm install --save-dev electron@latest
+
+npm i --save-dev electron-builder
+
+npm i --save-dev cross-env
+
+npm i --save-dev npm-run-all  

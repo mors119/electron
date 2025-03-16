@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    // 엄격한 유형이 필요 (null-save)
+    "strict": true,
+    // 타입스크립트에 ESM 구문 생성 지시
+    "target": "ESNext",
+    // 입력할 때 ESM 구문이 필요하도록 타입스크립트에 지시(.js 파일 가져오기 포함)
+    "module": "NodeNext",
+    // JS를 생성할 위치를 정의
+    "outDir": "../../dist-electron",
+    // 종속성에서 발생하는 오류를 무시
+    "skipLibCheck": true
+  }
+}
